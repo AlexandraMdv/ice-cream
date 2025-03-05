@@ -171,75 +171,78 @@
       </button>
     </div>
   </div>
-  <div class="modal-window location">
-    <button class="modal-close-btn-contacts">
-      <svg class="modal-close-icon" width="11" height="11">
-        <use href="./images/symbol-defs.svg#icon-close"></use>
-      </svg>
-    </button>
-    <div class="modal-content">
-      <h2 class="modal-title-contacts">Our Locations</h2>
-      <div class="google-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165489.06327309116!2d34.39277367722371!3d49.60215046984249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d825e425e6ba6b%3A0xcf3e6bdfb9e4ca82!2sPoltava%2C%20Regiunea%20Poltava%2C%20Ucraina%2C%2036000!5e0!3m2!1sro!2sro!4v1724674839276!5m2!1sro!2sro"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+  <div class="modal-overlay">
+    <div class="modal-window location">
+      <button class="modal-close-btn-contacts">
+        <svg class="modal-close-icon" width="11" height="11">
+          <use href="./images/symbol-defs.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="modal-content">
+        <h2 class="modal-title-contacts">Our Locations</h2>
+        <div class="google-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165489.06327309116!2d34.39277367722371!3d49.60215046984249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d825e425e6ba6b%3A0xcf3e6bdfb9e4ca82!2sPoltava%2C%20Regiunea%20Poltava%2C%20Ucraina%2C%2036000!5e0!3m2!1sro!2sro!4v1724674839276!5m2!1sro!2sro"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <a class="open-map-btn" href="#">Open map</a>
       </div>
-      <a class="open-map-btn" href="#">Open map</a>
+    </div>
+    <div class="modal-window franchise">
+      <button class="modal-close-btn-contacts">
+        <svg class="modal-close-icon" width="11" height="11">
+          <use href="./images/symbol-defs.svg#icon-close"></use>
+        </svg>
+      </button>
+      <h2 class="modal-title-contacts">
+        Thank you for your interest in owning an Ice Cream shop
+      </h2>
+      <p class="modal-info">
+        Due to the overwhelming volume of franchise requests we are not accepting
+        new franchisee applications at this time. Once the application process
+        resumes, we will contact you for further information. Please fill out the
+        contact information below and we will reach out for additional
+        information. We appreciate your patience.
+      </p>
+      <form
+        class="modal-franchise-form"
+        name="franchise-form"
+        autocomplete="off"
+        novalidate
+      >
+        <input
+          class="franchise-form-input"
+          type="text"
+          name="username"
+          placeholder="Name"
+        />
+        <input
+          class="franchise-form-input"
+          type="number"
+          name="telephone"
+          placeholder="Phone"
+        />
+        <input
+          class="franchise-form-input"
+          type="text"
+          name="email"
+          placeholder="Email"
+        />
+        <textarea
+          class="franchise-form-textarea"
+          name="comment"
+          rows="3"
+          placeholder="Comment"
+        ></textarea>
+        <button class="franchise-form-btn" type="submit">Submit</button>
+      </form>
     </div>
   </div>
-  <div class="modal-window franchise">
-    <button class="modal-close-btn-contacts">
-      <svg class="modal-close-icon" width="11" height="11">
-        <use href="./images/symbol-defs.svg#icon-close"></use>
-      </svg>
-    </button>
-    <h2 class="modal-title-contacts">
-      Thank you for your interest in owning an Ice Cream shop
-    </h2>
-    <p class="modal-info">
-      Due to the overwhelming volume of franchise requests we are not accepting
-      new franchisee applications at this time. Once the application process
-      resumes, we will contact you for further information. Please fill out the
-      contact information below and we will reach out for additional
-      information. We appreciate your patience.
-    </p>
-    <form
-      class="modal-franchise-form"
-      name="franchise-form"
-      autocomplete="off"
-      novalidate
-    >
-      <input
-        class="franchise-form-input"
-        type="text"
-        name="username"
-        placeholder="Name"
-      />
-      <input
-        class="franchise-form-input"
-        type="number"
-        name="telephone"
-        placeholder="Phone"
-      />
-      <input
-        class="franchise-form-input"
-        type="text"
-        name="email"
-        placeholder="Email"
-      />
-      <textarea
-        class="franchise-form-textarea"
-        name="comment"
-        rows="3"
-        placeholder="Comment"
-      ></textarea>
-      <button class="franchise-form-btn" type="submit">Submit</button>
-    </form>
-  </div>
+
 </section>

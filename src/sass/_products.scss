@@ -72,6 +72,7 @@ body {
     flex-wrap: wrap;
     gap: 14.5px;
     display: flex;
+    justify-content: center;
   }
   
   .product-card-item {
@@ -235,8 +236,8 @@ body {
   }
   
   .container.opaq-bg {
-    filter: blur(5px);
-    opacity: 0.4;
+    // filter: blur(5px);
+    // opacity: 0.4;
   }
   
   /* ----- Modal window Ingredients ----- */

@@ -1,9 +1,7 @@
 .footer-container{
-    position: absolute;
     background-color: #84A178;
-    width: 320px;
-    margin: 0 auto;
 }
+
 .first-p {
     font-weight: 700;
     font-size: 18px;
@@ -13,6 +11,7 @@
     margin-bottom: 16px;
     padding: 60px 66px 16px 22px;
 }
+
 .second-p {
     font-weight: 700;
     font-size: 34px;
@@ -23,6 +22,7 @@
     padding: 0 0 60px 20px;
     letter-spacing: 0.04em;
 }
+
 .footer-svg-list {
     display: flex;
     gap: 20px;
@@ -55,7 +55,7 @@
     text-align: right;
     display: flex;
     justify-content: end;
-    gap: 1px;
+    gap: 10px;
     padding-right: 20px;
     margin-bottom: 40px;
 }
@@ -86,7 +86,7 @@
 }
 @media (min-width: 480px) {
     .footer-container {
-    width: 480px;
+    min-width: 480px;
     height: 372px;
     }
     .footer-line {
@@ -114,12 +114,12 @@
         padding: 0 66px 32px 33px;
     }
     .footer-svg-list {
-       position: absolute;
+    //    position: absolute;
        top: 101px;
        left: 574px;
     }
     .footer-contact {
-        position: absolute;
+        // position: absolute;
         top: 169px;
         left: 451px;
         right: 32px;
@@ -156,11 +156,11 @@
         left: 846px;
     }
     .footer-svg-list {
-        position: absolute;
+        // position: absolute;
         left: 1022px;
     }
     .footer-line {
-        position: absolute;
+        // position: absolute;
         width: 1200px;
     }
 }

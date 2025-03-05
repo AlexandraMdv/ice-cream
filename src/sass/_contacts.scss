@@ -243,24 +243,23 @@ body {
     width: 288px;
   }
 }
-/* .gallery-container {
-  background-color: #84A178;
-} */
-.section-contact {
-  position: relative;
-}
+
 .contact-container.opaq-bg {
-  filter: blur(5px);
-  opacity: 0.4;
+  // filter: blur(5px);
+  // opacity: 0.4;
+}
+
+.modal-overlay {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-window {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  height: 674px;
-  width: 280px;
+  width: 430px;
   padding: 4px 28px 28px;
   background-color: #fff;
   border: 2px solid #f8d24e;
